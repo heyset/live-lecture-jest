@@ -51,9 +51,6 @@ function findOne(filter) {
 
 // Abaixo temos uma função assíncrona.
 
-// OE: Ressalte que as duas formas de trabalhar são válidas, mas frise que, fora de testes, sempre que você escrever um await, precisa lidar com o erro com try/catch.
-// OE: Explique também que toda função assíncrona retorna uma "promise-like", que a gente pode tratar basicamente como uma promise mesmo.
-
 async function getGreeting(filter) {
   try {
     const { greeting, name, favoriteFood } = await findOne(filter);
