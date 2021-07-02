@@ -48,7 +48,7 @@ async function queryForecast({ query, id }) {
 
     return createForecast(weatherResponse);
   } catch (err) {
-    return { Error: err };
+    throw new Error(err);
   }
 }
 

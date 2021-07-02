@@ -12,12 +12,8 @@ describe('A função getGreeting', () => {
     const filter = (person) => person.name === 'Xuxa';
 
     function callback(err, result) {
-      try {
-        expect(err).not.toEqual(expectedError);
-        done();
-      } catch (err) {
-        done(err);
-      }
+      expect(err).toEqual(expectedError);
+      done();
     }
 
     hackTheDb();
@@ -25,7 +21,7 @@ describe('A função getGreeting', () => {
     getGreeting(filter, callback);
   });
 
-  it('retorna corretamente a string', () => {
+  it('retorna corretamente a string', (done) => {
     const expectedString = 'Oi galerinha! Meu nome é Xuxa e minha comida favorita é algodão doce.';
 
     const filter = (person) => person.name === 'Xuxa';
