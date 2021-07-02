@@ -26,15 +26,15 @@ describe('A função getGreeting', () => {
   });
 
   it('retorna corretamente a string', () => {
-    // const expectedString = 'Oi galerinha! Meu nome é Xuxa e minha comida favorita é algodão doce.';
+    const expectedString = 'Oi galerinha! Meu nome é Xuxa e minha comida favorita é algodão doce.';
 
-    // const filter = (person) => person.name === 'Xuxa';
+    const filter = (person) => person.name === 'Xuxa';
 
-    // function callback(err, result) {
-    //   expect(result).toBe(expectedString);
-    //   done();
-    // }
+    function callback(err, result) {
+      expect(result).toBe(expectedString);
+      done();
+    }
 
-    // getGreeting(filter, callback);
+    getGreeting(filter, callback);
   });
 });
