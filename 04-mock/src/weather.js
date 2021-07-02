@@ -20,7 +20,7 @@ function createForecast(weatherResponse) {
   const forecast = {
     city: title,
     forecasts: [],
-  }
+  };
 
   consolidated_weather.forEach((weather) => {
     const { applicable_date: date, weather_state_abbr: abbr, min_temp , max_temp } = weather;
@@ -43,7 +43,7 @@ async function queryForecast({ query, id }) {
       const places = await fetchPlaces(query);
       id = places[0].woeid;
     }
-
+    
     const weatherResponse = await fetchWeather(id);
 
     return createForecast(weatherResponse);

@@ -11,7 +11,7 @@ const fetchPlaces = (query) => new Promise((resolve, reject) => {
 });
 
 const fetchWeather = (id) => new Promise((resolve, reject) => {
-  const url = `${baseUrl}/location/${id}`;
+  const url = `${baseUrl}/${id}`;
 
   fetch(url)
     .then((response) => response.json())

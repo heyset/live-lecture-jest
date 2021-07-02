@@ -1,0 +1,169 @@
+{
+  "queriedLocation": [
+    {
+      "title": "Brasília",
+      "location_type": "City",
+      "woeid": 455819,
+      "latt_long": "-15.77846,-47.928661"
+    }
+  ],
+  "queriedForecast": {
+    "consolidated_weather": [
+      {
+        "id": 6126679496851456,
+        "weather_state_name": "Light Cloud",
+        "weather_state_abbr": "lc",
+        "wind_direction_compass": "E",
+        "created": "2021-07-02T20:22:44.532092Z",
+        "applicable_date": "2021-07-02",
+        "min_temp": 12.315000000000001,
+        "max_temp": 25.049999999999997,
+        "the_temp": 22.51,
+        "wind_speed": 5.519206235584188,
+        "wind_direction": 83,
+        "air_pressure": 1026,
+        "humidity": 56,
+        "visibility": 9.999726596675416,
+        "predictability": 70
+      },
+      {
+        "id": 5087390558322688,
+        "weather_state_name": "Clear",
+        "weather_state_abbr": "c",
+        "wind_direction_compass": "ESE",
+        "created": "2021-07-02T20:22:47.685389Z",
+        "applicable_date": "2021-07-03",
+        "min_temp": 12.879999999999999,
+        "max_temp": 25.3,
+        "the_temp": 23.39,
+        "wind_speed": 4.1777423844746675,
+        "wind_direction": 102.99999999999999,
+        "air_pressure": 1021,
+        "humidity": 43,
+        "visibility": 9.999726596675416,
+        "predictability": 68
+      },
+      {
+        "id": 6589466987724800,
+        "weather_state_name": "Clear",
+        "weather_state_abbr": "c",
+        "wind_direction_compass": "E",
+        "created": "2021-07-02T20:22:50.677160Z",
+        "applicable_date": "2021-07-04",
+        "min_temp": 12.54,
+        "max_temp": 25.245,
+        "the_temp": 23.67,
+        "wind_speed": 4.296139545056868,
+        "wind_direction": 99.5,
+        "air_pressure": 1020,
+        "humidity": 37,
+        "visibility": 9.999726596675416,
+        "predictability": 68
+      },
+      {
+        "id": 4660676866867200,
+        "weather_state_name": "Clear",
+        "weather_state_abbr": "c",
+        "wind_direction_compass": "E",
+        "created": "2021-07-02T20:22:53.751765Z",
+        "applicable_date": "2021-07-05",
+        "min_temp": 12.615,
+        "max_temp": 25.884999999999998,
+        "the_temp": 24.06,
+        "wind_speed": 4.048421816591108,
+        "wind_direction": 99.00000000000001,
+        "air_pressure": 1021,
+        "humidity": 34,
+        "visibility": 9.999726596675416,
+        "predictability": 68
+      },
+      {
+        "id": 5545634846212096,
+        "weather_state_name": "Clear",
+        "weather_state_abbr": "c",
+        "wind_direction_compass": "E",
+        "created": "2021-07-02T20:22:56.854253Z",
+        "applicable_date": "2021-07-06",
+        "min_temp": 13.434999999999999,
+        "max_temp": 26.355,
+        "the_temp": 24.43,
+        "wind_speed": 3.291621331424481,
+        "wind_direction": 100,
+        "air_pressure": 1020,
+        "humidity": 32,
+        "visibility": 9.999726596675416,
+        "predictability": 68
+      },
+      {
+        "id": 5090998767058944,
+        "weather_state_name": "Clear",
+        "weather_state_abbr": "c",
+        "wind_direction_compass": "ESE",
+        "created": "2021-07-02T20:23:00.182138Z",
+        "applicable_date": "2021-07-07",
+        "min_temp": 13.055,
+        "max_temp": 27.075,
+        "the_temp": 26.3,
+        "wind_speed": 2.805500278374294,
+        "wind_direction": 102.5,
+        "air_pressure": 1018,
+        "humidity": 29,
+        "visibility": 9.999726596675416,
+        "predictability": 68
+      }
+    ],
+    "time": "2021-07-02T17:33:13.619427-03:00",
+    "sun_rise": "2021-07-02T06:39:35.417596-03:00",
+    "sun_set": "2021-07-02T17:52:10.772336-03:00",
+    "timezone_name": "LMT",
+    "parent": {
+      "title": "Brazil",
+      "location_type": "Country",
+      "woeid": 23424768,
+      "latt_long": "-14.242920,-54.387829"
+    },
+    "sources": [
+      {
+        "title": "BBC",
+        "slug": "bbc",
+        "url": "http://www.bbc.co.uk/weather/",
+        "crawl_rate": 360
+      },
+      {
+        "title": "Forecast.io",
+        "slug": "forecast-io",
+        "url": "http://forecast.io/",
+        "crawl_rate": 480
+      },
+      {
+        "title": "HAMweather",
+        "slug": "hamweather",
+        "url": "http://www.hamweather.com/",
+        "crawl_rate": 360
+      },
+      {
+        "title": "OpenWeatherMap",
+        "slug": "openweathermap",
+        "url": "http://openweathermap.org/",
+        "crawl_rate": 360
+      },
+      {
+        "title": "Weather Underground",
+        "slug": "wunderground",
+        "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+        "crawl_rate": 720
+      },
+      {
+        "title": "World Weather Online",
+        "slug": "world-weather-online",
+        "url": "http://www.worldweatheronline.com/",
+        "crawl_rate": 360
+      }
+    ],
+    "title": "Brasília",
+    "location_type": "City",
+    "woeid": 455819,
+    "latt_long": "-15.77846,-47.928661",
+    "timezone": "America/Sao_Paulo"
+  }
+}
