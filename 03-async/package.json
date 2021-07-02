@@ -1,0 +1,15 @@
+{
+  "name": "03-async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "callbacks-start.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
